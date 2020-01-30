@@ -20,19 +20,18 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.3",
         "ext-soap": "*",
         "ext-curl": "*",
         "ass/xmlsecurity": "~1.0",
-        "symfony/framework-bundle": "~3.4",
-        "symfony/twig-bundle": "~3.4",
+        "symfony/framework-bundle": "~4.4",
+        "symfony/twig-bundle": "~4.4",
         "zendframework/zend-mime": "2.1.*"
     },
     "require-dev": {
-        "ext-mcrypt": "*",
         "mikey179/vfsStream": "~1.0",
-        "symfony/filesystem": "~2.3",
-        "symfony/process": "~2.3"
+        "symfony/filesystem": "~4.4",
+        "symfony/process": "~4.4"
     },
     "autoload": {
         "psr-0": { "BeSimple\\": "src/" }
